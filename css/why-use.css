@@ -1,0 +1,52 @@
+.why-use {
+    background-color: #f3fafa;
+}
+
+.why-use .container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 100px 0;
+
+}
+
+.why-use .title {
+    font-weight: 700;
+    font-size: 63px;
+    line-height: 1.20635;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #2e2f35;
+    max-width: 603px;
+    margin: 0 auto;
+    margin-bottom: 58px;
+}
+
+.why-use .title-part {
+    font-family: "Covered By Your Grace", sans-serif;
+    font-weight: 400;
+    color: #009387;
+}
+
+.why-use .why-use-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 170px;
+}
+
+.why-use .title-item {
+    font-weight: 700;
+    font-size: 63px;
+    line-height: 1.19048;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #2e2f35;
+}
+
+.why-use .text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.57143;
+    text-align: center;
+    color: #58595d;
+}
