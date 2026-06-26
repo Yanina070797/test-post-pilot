@@ -1,0 +1,142 @@
+.features-qoutes {
+    background: #fdf3ea;
+}
+
+.features-qoutes .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.features-qoutes .title {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 1.08571;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #2e2f35;
+    max-width: 940px;
+    margin: 0 auto;
+    margin-bottom: 145px;
+}
+
+.features-qoutes .title-part {
+    font-family: "Covered By Your Grace", sans-serif;
+    font-weight: 400;
+    font-size: 90px;
+    color: #009387;
+}
+
+.features-qoutes .features-list {
+    display: flex;
+    flex-direction: column;
+    gap: 128px;
+}
+
+.features-qoutes .features-list-item:nth-child(1) {
+    max-width: 516px;
+}
+
+.features-qoutes .features-list-item:nth-child(2) {
+    max-width: 645px;
+    margin: 0 0 0 auto;
+}
+
+.features-qoutes .features-list-item:nth-child(3) {
+    max-width: 516px;
+}
+
+.features-qoutes .title-item {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 1.2069;
+    letter-spacing: -0.03em;
+    color: #2e2f35;
+}
+
+.features-qoutes .title-item-part {
+    font-family: "Covered By Your Grace", sans-serif;
+    font-weight: 400;
+    color: #009387;
+}
+
+.features-qoutes .features-list-item:nth-child(1) .title-item {
+    max-width: 324px;
+}
+
+.features-qoutes .features-list-item:nth-child(2) .title-item {
+    max-width: 626px;
+}
+
+.features-qoutes .text-item {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.7;
+    color: #58595d;
+    margin-top: 25px;
+}
+
+.features-qoutes .features-list-item:nth-child(1) .text-item {
+    max-width: 482px;
+}
+
+.features-qoutes .features-list-item:nth-child(2) .text-item {
+    max-width: 622px;
+}
+
+.features-qoutes .features-list-item:nth-child(3) .text-item {
+    max-width: 482px;
+}
+
+.features-qoutes .review-container {
+    position: relative;
+    border: 2px solid #d1c7be;
+    border-radius: 15px;
+    margin-top: 48px;
+    padding: 34px 56px;
+}
+
+.features-qoutes .review-qoutes-icon {
+    position: absolute;
+    top: -25px;
+    left: 54px;
+    padding: 0 14px;
+    background-color: #fdf3ea;
+}
+
+.features-qoutes .name-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.features-qoutes .review {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.875;
+    color: #58595d;
+}
+
+.features-qoutes .name {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.57143;
+    color: #a89b90;
+}
+
+.features-qoutes .button {
+    margin-top: 48px;
+    box-shadow: 3px 3px 0 0 #2e2f35;
+    background: #ff6d2c;
+    border: 2px solid #2e2f35;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1.53846;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    padding: 22px 66px;
+}
