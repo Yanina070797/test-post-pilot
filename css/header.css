@@ -1,0 +1,57 @@
+.header .navigation-list {
+    display: flex;
+    gap: 16px;
+}
+
+.header .container {
+    display: flex;
+    gap: 335px;
+}
+
+.header .second-container {
+    display: flex;
+    gap: 19px;
+}
+
+.header .navigation-item {
+    padding: 19px;
+}
+
+.header .navigation-item a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    color: #222;
+}
+
+
+.header .container-buttons {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.header button {
+    padding: 14px 16px;
+    border: 2px solid #2e2f35;
+    border-radius: 12px;
+    box-shadow: 3px 3px 0 0 #2e2f35;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.header .login-button {
+    color: #2e2f35;
+    background: #fff;
+}
+
+.header .create-button {
+    color: #fff;
+    background: #ff6d2c;
+}
+
+.header .logo {
+    margin: 17px 0;
+}

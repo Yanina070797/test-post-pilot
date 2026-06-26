@@ -1,0 +1,90 @@
+.hero {
+    background-color: #e0f8f2;
+}
+
+.hero .hero-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 75px;
+}
+
+.hero .hero-main-image {
+    position: relative;
+}
+
+.hero .hero-overlay-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateY(9.5%);
+}
+
+.hero .star-container {
+    display: flex;
+    gap: 4px;
+}
+
+.hero .title {
+    font-weight: 700;
+    font-size: 82px;
+    line-height: 1.17073;
+    color: #2e2f35;
+    max-width: 779px;
+    margin-bottom: 25px;
+}
+
+.hero .title-part {
+    font-family: "Covered By Your Grace", sans-serif;
+    font-weight: 400;
+    color: #009387;
+}
+
+.hero .left-container {
+    padding-top: 128px;
+}
+
+.hero .text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.7;
+    color: #58595d;
+    max-width: 554px;
+    margin-bottom: 48px;
+
+}
+
+.hero .button-stars-container {
+    display: flex;
+    gap: 40px;
+}
+
+.hero .button {
+    border: 2px solid #2e2f35;
+    border-radius: 15px;
+    box-shadow: 3px 3px 0 0 #2e2f35;
+    background: #ff6d2c;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1.53846;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    padding: 22px 66px;
+}
+
+.hero .star-shopify-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+}
+
+.hero .shopify-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2e2f35;
+}
