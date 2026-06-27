@@ -1,0 +1,75 @@
+.reviews .title {
+    font-weight: 700;
+    font-size: 63px;
+    line-height: 1.20635;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #2e2f35;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+.reviews .title-part {
+    font-family: "Covered By Your Grace", sans-serif;
+    font-weight: 400;
+    color: #009387;
+}
+
+.reviews .oveflow-wrapper {
+    overflow: hidden;
+}
+
+.reviews .review-list {
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+    width: max-content;
+    animation: scroll 40s linear infinite;
+    margin-bottom: 64px;
+
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.review-list:hover {
+    animation-play-state: paused;
+}
+
+.reviews .review-list-item {
+    width: 410px;
+    border: 2px solid #2e2f35;
+    border-radius: 15px;
+}
+
+.reviews .image-name-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.reviews .full-post-container {
+    padding: 34px;
+}
+
+.reviews .person-bird-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.reviews .post-review {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.875;
+    color: #58595d;
+    max-width: 300px;
+}

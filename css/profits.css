@@ -1,0 +1,88 @@
+.profits .title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.1875;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #2e2f35;
+    margin-top: 100px;
+    margin-bottom: 64px;
+}
+
+.profits .title-part {
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 1.42857;
+    letter-spacing: -0.06em;
+    text-align: center;
+    color: #009387;
+    font-family: "Covered By Your Grace", sans-serif;
+
+}
+
+.profits .profits-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 30px;
+    margin-bottom: 100px;
+}
+
+.profits .profits-list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc((100% - 60px) / 3);
+    height: 506px;
+    border-radius: 13px;
+
+}
+
+.profits .profits-list-item:nth-child(1) {
+    background-color: #fdf3ea;
+
+}
+
+.profits .profits-list-item:nth-child(2) {
+    background-color: #e0f8f2;
+}
+
+.profits .profits-list-item:nth-child(3) {
+    background-color: #eeecff;
+}
+
+.profits .profits-list-item:nth-child(4) {
+    background-color: #d9f2f7;
+}
+
+.profits .profits-list-item:nth-child(5) {
+    background-color: #faeded;
+}
+
+.profits .profits-list-item:nth-child(6) {
+    background-color: #f1f1f1;
+}
+
+.profits .title-list-item {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.28571;
+    text-align: center;
+    color: #2e2f35;
+    max-width: 300px;
+    margin-top: 48px;
+    margin-bottom: 8px;
+}
+
+
+.profits .text-list-item {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.875;
+    text-align: center;
+    color: #58595d;
+    max-width: 300px;
+
+}

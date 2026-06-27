@@ -1,0 +1,103 @@
+.fast-result {
+    background-color: #e3f8f8;
+}
+
+.fast-result .title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1.26667;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #2e2f35;
+    padding-top: 100px;
+    margin-bottom: 59px;
+}
+
+.fast-result .title-part {
+    font-family: "Covered By Your Grace", sans-serif;
+    font-weight: 400;
+    color: #009387;
+}
+
+.fast-result .container-for-number {
+    display: flex;
+    gap: 40px;
+}
+
+.fast-result .menu-container {
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.fast-result .container-for-three-inside {
+    max-width: 393px;
+    position: relative;
+}
+
+.fast-result .number-inactive {
+    font-family: "Covered By Your Grace", sans-serif;
+
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.04167;
+    letter-spacing: 0.08em;
+    color: rgba(0, 147, 135, 0.4);
+    width: 100px;
+}
+
+.fast-result .number-active {
+    font-family: "Covered By Your Grace", sans-serif;
+
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.04167;
+    letter-spacing: 0.08em;
+    color: #009387;
+    width: 100px;
+
+}
+
+.fast-result .menu-title-inactive {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.22222;
+    letter-spacing: -0.01em;
+    color: rgba(46, 47, 53, 0.4);
+}
+
+.fast-result .menu-title-active {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.22222;
+    letter-spacing: -0.01em;
+    color: #2e2f35;
+}
+
+.fast-result .menu-text-active {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.7;
+    color: #58595d;
+}
+
+.fast-result .black-stripe {
+    width: 2px;
+    height: 57px;
+    background: #2e2f35;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-120px, 50px);
+}
+
+.fast-result .grey-stripe {
+    width: 1px;
+    height: 96px;
+    background: #a0cdcd;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-120px, 50px);
+}
