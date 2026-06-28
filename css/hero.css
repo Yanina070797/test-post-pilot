@@ -8,15 +8,18 @@
     margin-left: 75px;
 }
 
-.hero .hero-main-image {
+.hero .right-container {
     position: relative;
+    overflow: hidden;
+
 }
 
 .hero .hero-overlay-image {
     position: absolute;
     top: 0;
     right: 0;
-    transform: translateY(2.2%);
+    transform: translateY(-3%);
+
 }
 
 .hero .star-container {
