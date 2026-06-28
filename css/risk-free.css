@@ -1,0 +1,71 @@
+.risk-free {
+    background-color: #ff6d2c;
+}
+
+.risk-free .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.risk-free .leftblock {
+    padding-top: 95px;
+    padding-bottom: 95px;
+
+}
+
+.risk-free .button-stars-container {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.risk-free .star-container {
+    display: flex;
+    gap: 4px;
+}
+
+.risk-free .title {
+    font-weight: 700;
+    font-size: 81px;
+    line-height: 1.18519;
+    color: #fff;
+    margin-bottom: 17px;
+}
+
+.risk-free .text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.7;
+    color: #fff;
+    margin-bottom: 48px;
+}
+
+.risk-free .button {
+    border: 2px solid #2e2f35;
+    border-radius: 15px;
+    box-shadow: 3px 3px 0 0 #2e2f35;
+    background: #fff;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1.53846;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #2e2f35;
+    padding: 22px 44px;
+}
+
+.risk-free .shopify-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.risk-free .explanation {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.57143;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 31px;
+}

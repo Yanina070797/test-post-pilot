@@ -1,0 +1,128 @@
+.footer .top-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 96px;
+    margin-bottom: 96px;
+}
+
+.footer .company-links {
+    display: flex;
+    gap: 128px;
+}
+
+.footer .support-mail-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 27px;
+}
+
+.footer .eco-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.57143;
+    color: #58595d;
+    max-width: 277px;
+    margin-top: 25px;
+}
+
+.footer .company-title {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1.38462;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #2e2f35;
+    margin-bottom: 27px;
+}
+
+.footer .company-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.875;
+    color: #2e2f35;
+    margin-bottom: 13px;
+}
+
+.footer .company-link {
+    color: #2e2f35;
+}
+
+.footer .contact-title {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: #2e2f35;
+    margin-bottom: 27px;
+}
+
+.footer .contact-link {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.2;
+    color: #2e2f35;
+}
+
+.footer .contact-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.875;
+    color: #58595d;
+    max-width: 284px;
+}
+
+.footer .grey-stripe {
+    width: 100%;
+    height: 2px;
+    background-color: #edeef3;
+    margin-bottom: 49px;
+}
+
+.footer .bottom-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
+.footer .copyright {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.57143;
+    color: #58595d;
+    margin-top: 9px;
+}
+
+.footer .login-button {
+    border: 2px solid #2e2f35;
+    border-radius: 12px;
+    box-shadow: 3px 3px 0 0 #2e2f35;
+    background: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.2;
+    text-align: center;
+    color: #2e2f35;
+    padding: 14px 22px;
+}
+
+.footer .try-button {
+    border: 2px solid #2e2f35;
+    border-radius: 12px;
+    box-shadow: 3px 3px 0 0 #2e2f35;
+    background: #ff6d2c;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    text-align: center;
+    color: #fff;
+    padding: 14px 22px;
+
+}
+
+.footer .footer-buttons-container {
+    display: flex;
+    gap: 16px;
+}

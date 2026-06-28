@@ -1,0 +1,45 @@
+.news {
+    background-color: #f3fafa;
+}
+
+.news .container {
+    padding-top: 95px;
+    padding-bottom: 95px;
+
+}
+
+.news .title {
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 1.11765;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #2e2f35;
+}
+
+.news .title-part {
+    font-family: "Covered By Your Grace", sans-serif;
+    font-weight: 400;
+    color: #009387;
+}
+
+.news .news-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 74px;
+
+}
+
+.news .news-item {
+    width: calc((100% - 60px) / 3);
+}
+
+.news .news-link {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.38462;
+    color: #2e2f35;
+    display: block;
+    margin-bottom: 20px;
+    text-align: left;
+}

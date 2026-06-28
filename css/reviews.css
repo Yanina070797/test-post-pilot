@@ -73,3 +73,23 @@
     color: #58595d;
     max-width: 300px;
 }
+
+.reviews .button {
+    margin-top: 48px;
+    box-shadow: 3px 3px 0 0 #2e2f35;
+    background: #ff6d2c;
+    border: 2px solid #2e2f35;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1.53846;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    padding: 22px 66px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 100px;
+
+}
